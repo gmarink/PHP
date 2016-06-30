@@ -31,28 +31,28 @@
             <tbody>
                 <tr>
                     <th>Campo Novo de Rondônia </th>
-                    <td><?php echo @$consulta->getStatus('http://186.219.242.38:5659/transparencia'); ?></td>
-                    <td><?php echo @$consulta->getStatus('http://186.219.242.38:5660/servicosweb'); ?></td>
-                    <td><?php echo @$consulta->getStatus('http://186.219.242.38:5660/sipweb/trabalhador'); ?></td>
+                    <td><?php echo @$consulta->getStatus('186.219.242.38', 5659); ?></td>
+                    <td><?php echo @$consulta->getStatus('186.219.242.38', 5660); ?></td>
+                    <td><?php echo @$consulta->getStatus('186.219.242.38', 5660); ?></td>
                 </tr>
 
                 <tr>
                     <th>Jí-Paraná </th>
-                    <td><?php echo @$consulta->getStatus('http://201.3.59.82:5659/transparencia/'); ?></td>
-                    <td><?php echo @$consulta->getStatus('http://201.3.59.82:5660/servicosweb/'); ?></td>
-                    <td><?php echo @$consulta->getStatus('http://201.3.59.82:5660/sipweb/trabalhador'); ?></td>
+                    <td><?php echo @$consulta->getStatus('201.3.59.82', 5659); ?></td>
+                    <td><?php echo @$consulta->getStatus('201.3.59.82', 5660); ?></td>
+                    <td><?php echo @$consulta->getStatus('201.3.59.82', 5660); ?></td>
                 </tr>
                 <tr>
                     <th>Ouro Preto </th>
-                    <td><?php echo @$consulta->getStatus('http://191.37.222.194:5659/transparencia'); ?></td>
-                    <td><?php echo @$consulta->getStatus('http://191.37.222.194:5660/servicosweb'); ?></td>
-                    <td><?php echo @$consulta->getStatus('http://191.37.222.194:5660/sipweb/trabalhador'); ?></td>
+                    <td><?php echo @$consulta->getStatus('191.37.222.194', 5659); ?></td>
+                    <td><?php echo @$consulta->getStatus('191.37.222.194', 5660); ?></td>
+                    <td><?php echo @$consulta->getStatus('191.37.222.194', 5660); ?></td>
                 </tr>
                 <tr>
                     <th>Jarú </th>
-                    <td><?php echo @$consulta->getStatus('http://201.16.129.175:5659/transparencia/'); ?></td>
-                    <td><?php echo @$consulta->getStatus('http://201.16.129.176:5660/servicosweb'); ?></td>
-                    <td><?php echo @$consulta->getStatus('http://201.16.129.175:5660/sipweb/trabalhador'); ?></td>
+                    <td><?php echo @$consulta->getStatus('201.16.129.175', 5659); ?></td>
+                    <td><?php echo @$consulta->getStatus('201.16.129.176', 5660); ?></td>
+                    <td><?php echo @$consulta->getStatus('201.16.129.175', 5660); ?></td>
                 </tr>
             </tbody>
         </table>
